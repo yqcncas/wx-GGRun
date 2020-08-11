@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///E:/web-project/GG来送小程序/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,8N;AACAA,UAAU,CAACC,iBAAD,CAAV,C","file":"packageA/pages/register/register.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './packageA/pages/register/register.vue'\ncreatePage(Page)"],"sourceRoot":""}

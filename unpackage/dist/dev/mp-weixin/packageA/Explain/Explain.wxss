@@ -1,0 +1,45 @@
+.explain .explain-header {
+  width: 100%;
+  height: 434rpx;
+}
+.explain .explain-header video {
+  width: 100%;
+  height: 100%;
+}
+.explain .explain-bottom {
+  padding: 30rpx;
+  padding-top: 22rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.explain .explain-bottom .explain-bottom-header {
+  font-family: PingFangSC-Regular;
+  font-size: 17px;
+  color: #09023E;
+  padding-bottom: 60rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.explain .explain-bottom .explain-bottom-footer {
+  background: #FFFFFF;
+  border: 1px solid rgba(9, 2, 62, 0.1);
+  border-radius: 4px;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.explain .explain-bottom .explain-bottom-footer .explain-bottom-footer-top {
+  font-family: PingFangSC-Medium;
+  font-size: 17px;
+  color: #09023E;
+  font-weight: bold;
+  padding-bottom: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.explain .explain-bottom .explain-bottom-footer .explain-bottom-footer-item {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: rgba(9, 2, 62, 0.6);
+}
+

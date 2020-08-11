@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "GG来送",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

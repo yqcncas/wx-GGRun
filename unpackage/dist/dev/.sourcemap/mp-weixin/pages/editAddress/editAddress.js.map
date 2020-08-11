@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///E:/web-project/GG来送小程序/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,8N;AACAA,UAAU,CAACC,oBAAD,CAAV,C","file":"pages/editAddress/editAddress.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/editAddress/editAddress.vue'\ncreatePage(Page)"],"sourceRoot":""}

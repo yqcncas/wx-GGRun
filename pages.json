@@ -1,0 +1,180 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "GG来送"
+			}
+		}
+		// {
+		// 	"path": "pages/storage/storage",
+		// 	"style": {
+		// 		"navigationBarTitleText": "GG来送"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/address/address",
+		// 	"style": {
+		// 		"navigationBarTitleText": "地址薄"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/editAddress/editAddress",
+		// 	"style": {
+		// 		"navigationBarTitleText": "编辑地址"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/discount/discount",
+		// 	"style": {
+		// 		"navigationBarTitleText": "优惠券"
+		// 	}
+		// }
+		// {
+		// 	"path": "pages/enter/enter",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录"
+		// 	}
+		// },
+
+		// {
+		// 	"path": "pages/ChangePwd/changePwd",
+		// 	"style": {
+		// 		"navigationBarTitleText": "忘记密码"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/SuccessOrder/SuccessOrder",
+		// 	"style": {
+		// 		"navigationBarTitleText": "下单成功"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/Explain/Explain",
+		// 	"style": {
+		// 		"navigationBarTitleText": "使用说明"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/shopInfo/shopInfo",
+		// 	"style": {
+		// 		"navigationBarTitleText": "商品信息"
+		// 	}
+		// }
+		// {
+		// 	"path": "pages/freightDeatail/freightDeatail",
+		// 	"style": {
+		// 		"navigationBarTitleText": "运费明细"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/rich-text/rich-text",
+		// 	"style": {
+		// 		"navigationBarTitleText": ""
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/remark/remark",
+		// 	"style": {
+		// 		"navigationBarTitleText": "备注"
+		// 	}
+		// }
+	],
+	"subPackages":[{
+		"root": "packageA",
+		"pages": [{
+			"path": "register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "Tip/Tip",
+			"style": {
+				"navigationBarTitleText": "提示"
+			}
+		}, {
+			"path": "Explain/Explain",
+			"style": {
+				"navigationBarTitleText": "使用说明"
+			}
+		}, {
+			"path": "Course/Course",
+			"style": {
+				"navigationBarTitleText": "安装提示"
+			}
+		}, {
+			"path": "freightDeatail/freightDeatail",
+			"style": {
+				"navigationBarTitleText": "运费明细"
+			}
+		}, 	{
+			"path": "rich-text/rich-text",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "remark/remark",
+			"style": {
+				"navigationBarTitleText": "备注"
+			}
+		}, {
+			"path": "storage/storage",
+			"style": {
+				"navigationBarTitleText": "GG来送"
+			}
+		}, {
+			"path": "enter/enter",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "ChangePwd/changePwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},	{
+			"path": "SuccessOrder/SuccessOrder",
+			"style": {
+				"navigationBarTitleText": "下单成功"
+			}
+		}, {
+			"path": "shopInfo/shopInfo",
+			"style": {
+				"navigationBarTitleText": "商品信息"
+			}
+		},{
+			"path": "address/address",
+			"style": {
+				"navigationBarTitleText": "地址薄"
+			}
+		},
+		{
+			"path": "editAddress/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "discount/discount",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "GG来送",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

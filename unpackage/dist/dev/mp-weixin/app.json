@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "register/register",
+        "Tip/Tip",
+        "Explain/Explain",
+        "Course/Course",
+        "freightDeatail/freightDeatail",
+        "rich-text/rich-text",
+        "remark/remark",
+        "storage/storage",
+        "enter/enter",
+        "ChangePwd/changePwd",
+        "SuccessOrder/SuccessOrder",
+        "shopInfo/shopInfo",
+        "address/address",
+        "editAddress/editAddress",
+        "discount/discount"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "GG来送",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序基于定位的数据显示"
+    }
+  }
+}
